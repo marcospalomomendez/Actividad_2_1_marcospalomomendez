@@ -71,7 +71,6 @@ public class Main {
             } catch (SQLException e) {
                 System.err.println("Error en la consulta: " + e.getMessage());
             }
-            //6. Llamar a un procedimiento obtener_empleado con CallableStatement
 
             // 6. Llamar al procedure obtener_empleado con CallableStatement
             System.out.print("\nIngrese el ID del empleado para el procedure: ");
